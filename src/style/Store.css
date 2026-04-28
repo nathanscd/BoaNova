@@ -445,20 +445,41 @@
 
   #Frente{
     z-index: 10;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #Frente:hover{
+    margin-right: 10vw;
   }
 
   #Trás{
     margin-left: -15vw;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #Trás:hover{
+    margin-left: -5vw;
   }
 
   #Trás1{
     z-index: 10;
     width: 30vw;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #Trás1:hover{
+    margin-right: 10vw;
   }
   
   #Trás2{
     margin-left: -15vw;
     z-index: 8;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #Trás2:hover{
+    margin-left: -5vw;
+    margin-right: 10vw;
   }
 
   .camisasMockup{
@@ -466,6 +487,7 @@
     justify-content: center;
     align-items: center;
     gap: -20vw;
+    transition: gap 0.5s ease;
   }
 
   .community-banner{
